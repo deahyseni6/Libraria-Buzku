@@ -40,9 +40,9 @@
             transition: box-shadow 0.25s;
         }
 
-    .search:focus-within{
+        .search:focus-within{
         box-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
-    }
+        }
 
         .search-input{
             font-size: 16px;
@@ -54,18 +54,74 @@
             background: transparent;
             width: 400px;
             height: 50px;
-        }
+    }
 
         .search-input::placeholder,
         .search-icon{
             color: rgba(0, 0, 0, 0.5);
         }
+
+        .footer{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+            margin-top: 150px;
+            width: 100%;
+            padding: 100px 15%;
+            background: #b9b9b9;
+            color: #000000;
+            display: flex;
+        }
+
+        .footer div{
+            text-align: center;
+        }
+
+        .Llogaria{
+            flex-grow: 3;
+        }
+
+        .footer div h3{
+            font-weight: 300;
+            margin-bottom: 30px;
+        }
+
+        .Info a{
+            display: block;
+            text-decoration: none;
+            color: #333333;
+            margin-bottom: 10px;
+        }
+        .Llogaria a{
+            display: block;
+            text-decoration: none;
+            color: #333333;
+            margin-bottom: 10px;
+        }
+
+        .Ndihme a{
+            display: block;
+            text-decoration: none;
+            color: #333333;
+            margin-bottom: 10px;
+        }
+
+        .SNS a{
+            margin-top: 30;
+            display: block;
+            text-decoration: none;
+            color: #333333;
+            margin-bottom: 10px;
+        }
+
+    
     </style>
 </head>
 <body>
     <nav class = "navBuzuku">
          <div class="divBuzuku">
-            <div class="logo"> <img src="buzukulogo3.png" width="200" height="84"></a></div>
+            <div class="logo"> <img src="buzukulogo3.png" width="250" height="64"></a></div>
             <ul class="menu">
                 <li><a href="#">Libra Shqip</a></li>
                 <li><a href="#">Libra Te Huaj</a></li>
@@ -86,5 +142,33 @@
          </div>
          </form>
     </nav>
+
+    <div class="footer">
+        <div class="Info">
+            <h3>Informacion</h3>
+            <a href="#">Lokacionet</a>
+            <a href="#">Pika 1: nene tereza(afer kino ABC)</a>
+            <a href="#">Pika 2: albi mall, kati 3</a>
+            <a href="#">Pika 3: prishtina mall, kati 1</a>
+        </div>
+        <div class="Llogaria">
+            <h3>Llogaria Ime</h3>
+            <a href="#">Pelqimet</a>
+            <a href="#">Shporta</a>
+            <a href="#">Vleresimet</a>
+        </div>
+        <div class="Ndihme">
+            <h3>Te Duhet Ndihme</h3>
+            <a href="#">Rreth Nesh</a>
+            <a href="#">Kontaktet</a>
+            <a href="#">Transporti & Kthimet</a>
+            <a href="#">Merre Ne Dyqan</a>
+        </div>
+        <div class="SNS">
+            <h3>Na Ndjek:</h3>
+            <button><a href="#"><img src="facebook.png" alt="Facebook" width="23" height="23" boder="0" ></a></button>
+            <button><a href="#"><img src="instagram.png" alt="Instagram" width="30" height="30" boder="0"></a></button>
+        </div>
+    </div>
  </body>
 </html>
