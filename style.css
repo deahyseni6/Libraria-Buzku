@@ -1,48 +1,51 @@
 *{
             text-decoration: none;
-        }
-        .menu{
-            background: #FCF7F7; 
-            font-family: 'Poppins', sans-serif;
-            list-style: none; 
-            display: flex;
-            gap: 30px;
-            padding-top: 30px;
-            padding-bottom: 30px;
-            padding-left: 40;
-        }
-        .divBuzuku{
-            display: flex; 
-            align-items: center;
-            justify-items: 
-            space-between; 
-            padding: 10px 20px;
+
         }
 
-        .search{
-            width: max-content;
-            display: flex;
-            align-items: center;
-            padding: var(--padding);
-            border-radius: 40px;
-            background: #d4d3d3;
-            transition: box-shadow 0.25s;
-        }
+    .menu{
+        background: #FCF7F7; 
+        font-family: 'Poppins', sans-serif;
+        list-style: none; 
+        display: flex;
+        gap: 30px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-left: 40;
+    }
 
-        .search:focus-within{
+    .divBuzuku{
+        display: flex; 
+        align-items: center;
+        justify-items: 
+        space-between; 
+        padding: 10px 20px;
+    }
+
+    .search{
+        width: max-content;
+        display: flex;
+        align-items: center;
+        padding: var(--padding);
+        border-radius: 40px;
+        background: #d4d3d3;
+        transition: box-shadow 0.25s;
+    }
+
+    .search:focus-within{
         box-shadow: 0 0 2px rgba(0, 0, 0, 0.75);
-        }
+    }
 
-        .search-input{
-            font-size: 16px;
-            font-family: 'Poppins', sans-serif;
-            color: #333333;
-            margin-left: var(--padding);
-            outline: none;
-            border: none;
-            background: transparent;
-            width: 400px;
-            height: 50px;
+    .search-input{
+        font-size: 16px;
+        font-family: 'Poppins', sans-serif;
+        color: #333333;
+        margin-left: var(--padding);
+        outline: none;
+        border: none;
+        background: transparent;
+        width: 400px;
+        height: 50px;
     }
 
         .search-input::placeholder,
@@ -50,56 +53,57 @@
             color: rgba(0, 0, 0, 0.5);
         }
 
-        .footer{
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Poppins', sans-serif;
-            margin-top: 150px;
-            width: 100%;
-            padding: 100px 15%;
-            background: #b9b9b9;
-            color: #000000;
-            display: flex;
-        }
+    .footer{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
+        margin-top: 150px;
+        width: 100%;
+        padding: 100px 15%;
+        background: #b9b9b9;
+        color: #000000;
+        display: flex;
+    }
 
-        .footer div{
-            text-align: center;
-        }
+    .footer div{
+        text-align: center;
+    }
 
-        .Llogaria{
-            flex-grow: 3;
-        }
+    .Llogaria{
+        flex-grow: 3;
+    }
 
-        .footer div h3{
-            font-weight: 300;
-            margin-bottom: 30px;
-        }
+    .footer div h3{
+        font-weight: 300;
+        margin-bottom: 30px;
+    }
 
-        .Info a{
-            display: block;
-            text-decoration: none;
-            color: #333333;
-            margin-bottom: 10px;
-        }
-        .Llogaria a{
-            display: block;
-            text-decoration: none;
-            color: #333333;
-            margin-bottom: 10px;
-        }
+    .Info a{
+        display: block;
+        text-decoration: none;
+        color: #333333;
+        margin-bottom: 10px;
+    }
 
-        .Ndihme a{
-            display: block;
-            text-decoration: none;
-            color: #333333;
-            margin-bottom: 10px;
-        }
+    .Llogaria a{
+        display: block;
+        text-decoration: none;
+        color: #333333;
+         margin-bottom: 10px;
+    }
 
-        .SNS a{
-            margin-top: 30;
-            display: block;
-            text-decoration: none;
-            color: #333333;
-            margin-bottom: 10px;
-         }
+    .Ndihme a{
+        display: block;
+        text-decoration: none;
+        color: #333333;
+        margin-bottom: 10px;
+    }
+
+    .SNS a{
+        margin-top: 30;
+        display: block;
+        text-decoration: none;
+        color: #333333;
+        margin-bottom: 10px;
+    }
