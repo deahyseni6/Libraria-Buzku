@@ -51,21 +51,21 @@ header{
 
 
 .Propozimi{
-    width: 900px;           
-    height: 650px;
+    width: 700px;           
+    height: 450px;
     background-color: #eeeeee;
-    border-radius: 20px;
-    margin: 50px auto;
+    border-radius: 10px;
+    margin: 40px auto;
     display: flex; 
     flex-direction: column;
-    justify-content: right; 
-    align-items: flex-start; 
+    justify-content: center; 
+    align-items: center;
     padding-top: 40px;
 }
 
 .form-input,
 .form-input-opsional {
-  width: 90%;                
+  width: 60%;                
   height: 45px;               
   background-color: white;    
   border: 1px solid #ccc;     
