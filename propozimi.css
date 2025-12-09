@@ -44,24 +44,35 @@ header{
 .user-icon{
    position: absolute;
     bottom: 469px;
-    right: 55px;
+    right: 45px;
     width: 20px;
     height: 22px; 
 }
 
+.Teksti{
+    text-align: center;
+    display: flex;
+    flex-flow: column nowrap;
+}
 
 .Propozimi{
-    width: 700px;           
-    height: 450px;
+    width: 400px;           
+    height: 400px;
     background-color: #eeeeee;
-    border-radius: 10px;
+    border-radius: 20px;
     margin: 40px auto;
     display: flex; 
     flex-direction: column;
     justify-content: center; 
     align-items: center;
-    padding-top: 40px;
+    padding-top: 25px;
 }
+
+/*.Teksti,
+.Propozimi{
+    display: inline-flex;
+    flex-flow: column-reverse wrap;
+*/
 
 .form-input,
 .form-input-opsional {
@@ -84,4 +95,50 @@ header{
     border-radius: 27px;
     font-size: 18px;
     margin-top: 30px;
+}
+
+.footer{
+    width: 76%;
+    padding: 40px 12%;
+    background: #b9b9b9;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+}
+
+.footer div{
+    flex: 1;
+}
+
+.footer h3{
+    font-size: 20px;
+    margin-bottom: 12px;
+}
+
+.footer a{
+    display: block;
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 6px;
+}
+
+.Info{
+    flex: 1.5;
+}
+
+.SNS{
+    flex: 0.6;
+}
+
+.icons{
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.icons img{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
 }
