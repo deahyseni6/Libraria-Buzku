@@ -52,8 +52,20 @@ header{
 .Teksti{
     text-align: center;
     flex: 1;
-    max-width: 300px;
-    margin-left: 300px;
+    max-width: 400px;
+    margin-left: 250px;
+}
+
+.Teksti h1{
+    font-weight: 900;
+    font-size: 45px;
+    margin-bottom: 0;
+}
+
+.Teksti P{
+    margin-top: 0;
+    font-weight: 300;
+    font-size: 20px;
 }
 
 .Data{
@@ -61,6 +73,7 @@ header{
     height: 400px;
     background-color: #eeeeee;
     border-radius: 20px;
+    margin-right: 300px;
     margin: 40px auto;
     display: flex; 
     flex-direction: column;
@@ -74,13 +87,13 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 70px;
+    gap: 50px;
 }
 
 .form-input,
 .form-input-opsional {
-  width: 60%;                
-  height: 45px;               
+  width: 65%;                
+  height: 50px;               
   background-color: white;    
   border: 1px solid #ccc;     
   border-radius: 27px;        
@@ -97,7 +110,7 @@ header{
     height: 50px;
     border-radius: 27px;
     font-size: 18px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 .footer{
