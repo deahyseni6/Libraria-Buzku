@@ -44,18 +44,19 @@ header{
 .user-icon{
    position: absolute;
     bottom: 469px;
-    right: 45px;
+    right: 55px;
     width: 20px;
     height: 22px; 
 }
 
 .Teksti{
     text-align: center;
-    display: flex;
-    flex-flow: column nowrap;
+    flex: 1;
+    max-width: 300px;
+    margin-left: 300px;
 }
 
-.Propozimi{
+.Data{
     width: 400px;           
     height: 400px;
     background-color: #eeeeee;
@@ -63,16 +64,17 @@ header{
     margin: 40px auto;
     display: flex; 
     flex-direction: column;
+    flex-shrink: 0;
     justify-content: center; 
     align-items: center;
     padding-top: 25px;
 }
 
-/*.Teksti,
 .Propozimi{
-    display: inline-flex;
-    flex-flow: column-reverse wrap;
-*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .form-input,
 .form-input-opsional {
