@@ -49,9 +49,16 @@ header{
     height: 22px; 
 }
 
-.Fotot{
+.fotot {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 20px;
+}
+
+.fotot img{
+    border-radius: 15px;
 }
 
 
