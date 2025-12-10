@@ -1,143 +1,102 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    background: #fafafa;
-}
-
-
-.navbar {
+nav ul{
+    list-style: none;
     display: flex;
-    justify-content: space-between;
-    padding: 15px 40px;
-    align-items: center;
-    background: white;
-    border-bottom: 1px solid #ddd;
+    gap: 60px;
 }
 
-.logo {
-    font-size: 30px;
-    font-weight: bold;
-    background: #efebeb;
-    padding: 5px 15px;
-    color: white;
-    border-radius: 5px;
-}
-
-nav a {
-    margin: 0 12px;
-    color: black;
+nav a{
     text-decoration: none;
-    font-size: 15px;
+    color: black;
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+}
+body {
+    font-family: "Poppins", sans-serif;
 }
 
-.right-side {
+header{
+    background-color: #fcf7f7;
+    border-bottom: 1px solid #cccccc;
+}
+
+.header-logo{
+    position: relative;
+    left: 5px;
+    top: 10px;
+}
+
+.search-box{
+    float: right;
+    width: 230px;          
+    height: 30px;           
+    padding: 0 10px;
+    border-radius: 20px; 
+}
+
+.bag{
+    position: absolute;
+    top: 67px;
+    right: 25px;
+    width: 20px;
+    height: 22px;
+}
+
+.user-icon{
+   position: absolute;
+    top: 67px;
+    right: 55px;
+    width: 20px;
+    height: 22px; 
+}
+
+.Fotot{
     display: flex;
-    align-items: center;
-}
-
-.search {
-    padding: 8px 15px;
-    border-radius: 20px;
-    border: 1px solid #ccc;
-    width: 200px;
-    margin-right: 20px;
-}
-
-.icons img {
-    width: 22px;
-    margin-left: 10px;
-}
-
-.lang {
-    margin-left: 20px;
-    font-weight: bold;
+    flex-direction: column;
 }
 
 
-.banner {
-    display: flex;
-    padding: 40px;
-    background: #d8e9f8;
-}
-
-.book-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 15px;
-}
-
-.book-grid img {
-    width: 150px;
-    border-radius: 5px;
-}
-
-.banner-right {
-    margin-left: 40px;
-    max-width: 600px;
-}
-
-.banner-right h3 {
-    font-size: 18px;
-}
-
-.offer {
-    margin-top: 20px;
-    font-size: 25px;
-}
-
-.old-price {
-    text-decoration: line-through;
-    color: #444;
-    margin-right: 10px;
-}
-
-.new-price {
-    background: red;
-    padding: 8px 15px;
-    color: white;
-    font-weight: bold;
-    border-radius: 50px;
-}
-
-
-.new-titles {
-    padding: 40px;
-}
-
-.new-titles h2 {
-    font-size: 24px;
-    margin-bottom: 25px;
-}
-
-.book-row {
+.footer{
+    width: 76%;
+    padding: 40px 12%;
+    background: #d9d9d9;
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    align-items: flex-start;
+    gap: 60px;
 }
 
-.book-card {
-    background: white;
-    padding: 15px;
-    width: 200px;
-    border-radius: 8px;
-    text-align: center;
-    border: 1px solid #ddd;
+.footer div{
+    flex: 1;
 }
 
-.book-card img {
-    width: 100%;
-    height: 260px;
-    object-fit: cover;
-    border-radius: 5px;
+.footer h3{
+    font-size: 20px;
+    margin-bottom: 12px;
 }
 
-.author {
-    color: #c0392b;
-    font-weight: bold;
+.footer a{
+    display: block;
+    text-decoration: none;
+    color: #333;
+    margin-bottom: 6px;
 }
 
-.price {
-    font-size: 17px;
-    color: black;
-    font-weight: bold;
+.Info{
+    flex: 1.5;
+}
+
+.SNS{
+    flex: 0.6;
+}
+
+.icons{
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+.icons img{
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
 }
