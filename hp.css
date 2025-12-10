@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -7,76 +6,43 @@ body {
 
 
 .navbar {
-=======
-nav ul{
-    list-style: none;
->>>>>>> Stashed changes
     display: flex;
-    gap: 60px;
+    justify-content: space-between;
+    padding: 15px 40px;
+    align-items: center;
+    background: white;
+    border-bottom: 1px solid #ddd;
 }
 
-nav a{
-    text-decoration: none;
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    background: #efebeb;
+    padding: 5px 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+nav a {
+    margin: 0 12px;
     color: black;
-    font-family: Poppins, sans-serif;
-    font-size: 14px;
-}
-body {
-    font-family: "Poppins", sans-serif;
+    text-decoration: none;
+    font-size: 15px;
 }
 
-header{
-    background-color: #fcf7f7;
-    border-bottom: 1px solid #cccccc;
-}
-
-.header-logo{
-    position: relative;
-    left: 5px;
-    top: 10px;
-}
-
-.search-box{
-    float: right;
-    width: 230px;          
-    height: 30px;           
-    padding: 0 10px;
-    border-radius: 20px; 
-}
-
-.bag{
-    position: absolute;
-    top: 67px;
-    right: 25px;
-    width: 20px;
-    height: 22px;
-}
-
-.user-icon{
-   position: absolute;
-    top: 67px;
-    right: 55px;
-    width: 20px;
-    height: 22px; 
-}
-
-/*
-.L1{
-    margin-left: 50px
-}
-
-.L2{
-    margin-right: 50px;
-}
-*/
-
-.Fotot{
+.right-side {
     display: flex;
-    flex-direction: column;
+    align-items: center;
 }
 
+.search {
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    width: 200px;
+    margin-right: 20px;
+}
 
-<<<<<<< Updated upstream
 .icons img {
     width: 22px;
     margin-left: 10px;
@@ -144,50 +110,34 @@ header{
 }
 
 .book-row {
-=======
-.footer{
-    width: 76%;
-    padding: 40px 12%;
-    background: #d9d9d9;
->>>>>>> Stashed changes
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
-    gap: 60px;
+    gap: 20px;
 }
 
-.footer div{
-    flex: 1;
+.book-card {
+    background: white;
+    padding: 15px;
+    width: 200px;
+    border-radius: 8px;
+    text-align: center;
+    border: 1px solid #ddd;
 }
 
-.footer h3{
-    font-size: 20px;
-    margin-bottom: 12px;
+.book-card img {
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
-.footer a{
-    display: block;
-    text-decoration: none;
-    color: #333;
-    margin-bottom: 6px;
+.author {
+    color: #c0392b;
+    font-weight: bold;
 }
 
-.Info{
-    flex: 1.5;
-}
-
-.SNS{
-    flex: 0.6;
-}
-
-.icons{
-    display: flex;
-    gap: 15px;
-    margin-top: 10px;
-}
-
-.icons img{
-    width: 32px;
-    height: 32px;
-    cursor: pointer;
+.price {
+    font-size: 17px;
+    color: black;
+    font-weight: bold;
 }
