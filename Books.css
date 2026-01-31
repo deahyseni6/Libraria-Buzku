@@ -1,10 +1,10 @@
-.nav ul{
+.navul{
     list-style: none;
     display: flex;
     gap: 60px;
 }
 
-.nav a{
+.nava{
     text-decoration: none;
     color: black;
     font-family: Poppins, sans-serif;
