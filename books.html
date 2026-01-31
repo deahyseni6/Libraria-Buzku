@@ -37,8 +37,9 @@
     </div>
 
     <div class="slider">
-        <h2 style="color: rgb(65, 34, 52);">Tituj Të Famshëm</h2>
-        <img id="slideshow" src="TePoshteruar-pop.jpg">
+        <h2 style="color: #000000;">Tituj Të Famshëm</h2>
+        <img id="slideshow" src="TePoshteruar-pop.jpg" width="250">
+        <img src="JamMysliman-pop-shq.jpg" alt="" width="250">
         <button class="arrow prev" onclick="prevSlide()">❮</button>
         <button class="arrow next" onclick="nextSlide()">❯</button>
     </div>
@@ -126,5 +127,32 @@
             </div>
         </div>
     </div>
+
+    <script>
+        let i = 0;
+        let images = ['TePoshteruar-pop.jpg', 'sunrise-pop-fni.jpg', 'JamMysliman-pop-shq.jpg', 'AnimalFarm-pop-kl.jpg'];
+
+        function nextSlide(){
+            document.getElementById('slideshow').src = images[i];
+
+            if(i < images.length - 1){
+                i++;
+            }
+            else{
+                i = 0;
+            }
+        }
+        function prevSlide(){
+            document.getElementById('slideshow').src = images[i];
+
+            if(i == 0){
+                i = images.length - 1;
+            }
+            else{
+                i--;
+            }
+        }
+        document.addEventListener(onload, nextSlide());
+    </script>
 </body>
 </html>
