@@ -8,24 +8,21 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+    <header class="header">
         <img class="header-logo" src="buzukulogo3.png" alt="Buzku logo" width="210" height="30">
         <a href=""><img class="bag" src="bag2.png" alt="bag symbol"></a>
-        <a href=""><img  class="user-icon" src="user.png" alt="user icon"></a>
+        <a href=""><img class="user-icon" src="user.png" alt="user icon"></a>
         <input type="text" class="search-box" placeholder="Kërko...">
         <nav>
-            <ul>
-                <li><a href="">Libra</a></li>
-                <li><a href="">Oferta</a></li>
-                <li><a href="">Propozo</a></li>
+            <ul class="navul">
+                <li><a href="" class="nava">Libra</a></li>
+                <li><a href="" class="nava">Oferta</a></li>
+                <li><a href="" class="nava">Propozo</a></li>
             </ul>
         </nav>
     </header>
 
-
-
-
-     <div class="categories">
+    <div class="categories">
         <div class="genres"><a class="link" href="#sh">Shqip</a></div>
         <div class="genres"><a class="link" href="#kl">Klasikë</a></div>
         <div class="genres"><a class="link" href="#th">Thriller</a></div>
@@ -41,66 +38,61 @@
 
     <div class="slider">
         <h2 style="color: rgb(65, 34, 52);">Tituj Të Famshëm</h2>
-        <img id="slideshow">
+        <img id="slideshow" src="">
         <button class="arrow prev" onclick="prevSlide()">❮</button>
         <button class="arrow next" onclick="nextSlide()">❯</button>
     </div>
 
     <h2 id="sh" class="tituj">Shqip</h2>
-        <div class="kategorite">
-            <div class="container">
-                <img src="TePoshteruar-pop" alt="" class="img">
-                <div class="info">
-                    <p style="font-size: 25px; font-weight: bold;">Te Poshteruar</p>
-                    <p>Lea Ypi</p>
-                    <p class="p">17.50€</p>
-                </div>
-                <div style="text-align: center;">
-                    <button class="blej">Shto ne Shporte</button>
-                </div>
+    <div class="kategorite">
+        <div class="container">
+            <img src="TePoshteruar-pop" alt="" class="img">
+            <div class="info">
+                <p style="font-size: 25px; font-weight: bold;">Te Poshteruar</p>
+                <p>Lea Ypi</p>
+                <p class="p">17.50€</p>
             </div>
-
-            <div class="container">
-                <img src="JamMysliman-pop-shq" alt="" class="img">
-                <div class="info">
-                    <p style="font-size: 25px; font-weight: bold;">Jam Mysliman</p>
-                    <p>Ben Blushi</p>
-                    <p class="p">13.00€</p>
-                </div>
-                <div style="text-align: center;">
-                    <button class="blej">Shto ne Shporte</button>
-                </div>
+            <div style="text-align: center;">
+                <button class="blej">Shto ne Shporte</button>
             </div>
-
-            <div class="container">
-                <img src="Sikurt'ishadjalë-shq.jpg" alt="" class="img">
-                <div class="info">
-                    <p style="font-size: 25px; font-weight: bold;">Sikur t'isha djalë</p>
-                    <p>Haki Stermilli/p>
-                    <p class="p">8.50€</p>
-                </div>
-                <div style="text-align: center;">
-                    <button class="blej">Shto ne Shporte</button>
-                </div>
-            </div>
-
-            <div class="container">
-                <img src="PrilliThyer-shq.jpg" alt="" class="img">
-                <div class="info">
-                    <p style="font-size: 25px; font-weight: bold;">Prilli i Thyer</p>
-                    <p>Ismail Kadare</p>
-                    <p class="p">11.00€</p>
-                </div>
-                <div style="text-align: center;">
-                    <button class="blej">Shto ne Shporte</button>
-                </div>
-            </div>
-
         </div>
 
+        <div class="container">
+            <img src="JamMysliman-pop-shq" alt="" class="img">
+            <div class="info">
+                <p style="font-size: 25px; font-weight: bold;">Jam Mysliman</p>
+                <p>Ben Blushi</p>
+                <p class="p">13.00€</p>
+            </div>
+            <div style="text-align: center;">
+                <button class="blej">Shto ne Shporte</button>
+            </div>
+        </div>
 
+        <div class="container">
+            <img src="Sikurt'ishadjalë-shq.jpg" alt="" class="img">
+            <div class="info">
+                <p style="font-size: 25px; font-weight: bold;">Sikur t'isha djalë</p>
+                <p>Haki Stermilli</p>
+                <p class="p">8.50€</p>
+            </div>
+            <div style="text-align: center;">
+                <button class="blej">Shto ne Shporte</button>
+            </div>
+        </div>
 
-
+        <div class="container">
+            <img src="PrilliThyer-shq.jpg" alt="" class="img">
+            <div class="info">
+                <p style="font-size: 25px; font-weight: bold;">Prilli i Thyer</p>
+                <p>Ismail Kadare</p>
+                <p class="p">11.00€</p>
+            </div>
+            <div style="text-align: center;">
+                <button class="blej">Shto ne Shporte</button>
+            </div>
+        </div>
+    </div>
 
     <div class="footer">
         <div class="Info">
@@ -128,12 +120,10 @@
 
         <div class="SNS">
             <h3>Na Ndjek:</h3>
-
             <div class="icons">
                 <a href=""><img src="facebook.png" width="30"></a>
                 <a href=""><img src="instagram.png" width="30"></a>
             </div>
-        
         </div>
     </div>
 </body>

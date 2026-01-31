@@ -31,7 +31,7 @@
                     <a href="Books.php#c">Comics</a>
                 </div>
             </div>
-            <li><a href="AboutUs.php">About Us</a></li>
+            <li><a href="aboutus.php">About Us</a></li>
             <li><a href="News.php" style="margin-left: -4px; margin-right: 5px;">News</a></li>
             <li><a href="#top" style="margin-left: -10px;">Dashboard</a></li>
             <button class="b"><a style="text-decoration: none; color: black;" href="LogIn.php">Log In</a></button>
@@ -73,7 +73,3 @@
     </main>
 </body>
 </html>
-
-<?php
-include 'Users.php';
-?>

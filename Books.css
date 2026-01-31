@@ -1,3 +1,7 @@
+body {
+    font-family: "Poppins", sans-serif;
+}
+
 .navul{
     list-style: none;
     display: flex;
@@ -10,13 +14,13 @@
     font-family: Poppins, sans-serif;
     font-size: 14px;
 }
-.body {
-    font-family: "Poppins", sans-serif;
-}
 
 .header{
     background-color: #fcf7f7;
     border-bottom: 1px solid #cccccc;
+    width: 100%;
+    position: relative;
+    padding: 10px 20px;
 }
 
 .header-logo{
@@ -95,40 +99,81 @@
     cursor: pointer;
 }
 
+.categories{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.genres a{
+    text-decoration: none;
+    color: #412234;
+    font-weight: bold;
+}
+
+.slider{
+    position: relative;
+    margin: 20px 0;
+}
+
+.kategorite{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.container{
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.container img{
+    width: 100%;
+    height: auto;
+}
+
+.info{
+    padding: 10px;
+}
+
+.blej{
+    padding: 10px 15px;
+    background-color: #412234;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
 @media only screen and (max-width: 767px) {
     .header{
-        width: 179.3%;
+        width: 100%;
     }
     ul{
         font-size: 12px;
     }
     .categories{
-        width: 179.3%;
+        width: 100%;
         margin: 0;
     }
     .genres{
-        margin: 20px;
-    }
-    .slider{
-        width: 160%;
+        margin: 10px;
     }
     .kategorite{
-        width: 176.5%;
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
     }
-    
     .container{
-        width: 80vw;
-        height: 92vh;
-    }
-    .info{
-        padding-top: 10px;
-    }
-    .img{
-        width: 65vw;
-        height: 55vh;
-        margin-bottom: -25px;
+        width: 80%;
     }
     .footer{
-        width: 176.5%;
+        width: 100%;
+        flex-direction: column;
+        gap: 20px;
     }
 }
