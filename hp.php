@@ -46,7 +46,6 @@
   <button class="arrow next" onclick="nextSlide()">❯</button>
 </div>
 
-<script src="hp.js"></script>
 
     <div class="fotot">
         <div class="L1">
@@ -121,10 +120,7 @@
     };
 </script>
 
-</body>
-</html>
-
-
+<script src="hp.js"></script>
 
 </body>
 </html>
