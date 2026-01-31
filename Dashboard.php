@@ -73,3 +73,7 @@
     </main>
 </body>
 </html>
+
+<?php
+include 'Users.php';
+?>
