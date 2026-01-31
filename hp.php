@@ -40,12 +40,10 @@
     </div>
 
 <div class="slider">
-    <h2 style="color: rgb(65, 34, 52);">Tituj Të Famshëm</h2>
+  <div class="slides" id="slides-container"></div>
 
-    <img id="slideshow" width="250">
-
-    <button class="arrow prev" onclick="prevSlide()">❮</button>
-    <button class="arrow next" onclick="nextSlide()">❯</button>
+  <button class="arrow prev" onclick="prevSlide()">❮</button>
+  <button class="arrow next" onclick="nextSlide()">❯</button>
 </div>
 
 <script src="hp.js"></script>
