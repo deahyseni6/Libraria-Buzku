@@ -13,7 +13,7 @@
         </div>
 
         <ul>
-            <li><a href="hp.php">Home</a></li>
+            <li><a href="index.php">Home</a></li>
             <div class="dropdown">
                 <button class="drop" style="font-family: garamond;"><a href="Books.php" style="text-decoration: none; color: rgb(211, 178, 95);">Books</a></button>
                 <div class="content">
